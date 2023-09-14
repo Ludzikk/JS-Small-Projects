@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>rafdev - background color</title>
+		<!-- @include "font.kit" -->
+		<link rel="stylesheet" href="./dist/css/style.min.css" />
+	</head>
+	<body style="background-color: rgb(44, 224, 224)">
+		<header class="header-background">
+			<button class="header-background__btn" id="randomcolor">Random Color</button>
+			<button class="header-background__btn" id="simplergb">Simple RGB</button>
+		</header>
+		<main class="main-background" id="mainrandom">
+			<p class="main-background__text">Change color</p>
+			<button class="main-background__btn">Change</button>
+		</main>
+
+		<main class="main-background hidden" id="mainrgb">
+			<p class="main-background__text">Change color</p>
+			<div class="main-background__container">
+				<input type="number" id="0" class="main-background__input" min="0" max="255"/>
+				<input type="number" id="1" class="main-background__input" min="0" max="255"/>
+				<input type="number" id="2" class="main-background__input" min="0" max="255"/>
+			</div>
+		</main>
+
+		<script src="./dist/js/background.min.js"></script>
+	</body>
+</html>

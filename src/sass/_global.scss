@@ -1,0 +1,73 @@
+*,
+*::after,
+*::before {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+}
+
+.bodymain {
+	background: radial-gradient(
+			at bottom right,
+			#023de7 0,
+			#023de7 7px,
+			rgba(2, 61, 231, 0.2) 7px,
+			rgba(2, 61, 231, 0.2) 14px,
+			rgba(2, 61, 231, 0.75) 14px,
+			rgba(2, 61, 231, 0.75) 21px,
+			rgba(2, 61, 231, 0.25) 21px,
+			rgba(2, 61, 231, 0.25) 28px,
+			rgba(2, 61, 231, 0.3) 28px,
+			rgba(2, 61, 231, 0.3) 35px,
+			rgba(2, 61, 231, 0.75) 35px,
+			rgba(2, 61, 231, 0.75) 42px,
+			rgba(2, 61, 231, 0.2) 42px,
+			rgba(2, 61, 231, 0.2) 49px,
+			transparent 49px,
+			transparent 56px
+		),
+		radial-gradient(
+			at top left,
+			transparent 0,
+			transparent 7px,
+			rgba(2, 61, 231, 0.2) 7px,
+			rgba(2, 61, 231, 0.2) 14px,
+			rgba(2, 61, 231, 0.75) 14px,
+			rgba(2, 61, 231, 0.75) 21px,
+			rgba(2, 61, 231, 0.3) 21px,
+			rgba(2, 61, 231, 0.3) 28px,
+			rgba(2, 61, 231, 0.25) 28px,
+			rgba(2, 61, 231, 0.25) 35px,
+			rgba(2, 61, 231, 0.75) 35px,
+			rgba(2, 61, 231, 0.75) 42px,
+			rgba(2, 61, 231, 0.2) 42px,
+			rgba(2, 61, 231, 0.2) 49px,
+			#023de7 49px,
+			#023de7 56px,
+			transparent 56px,
+			transparent 140px
+		);
+	background-blend-mode: multiply;
+	background-size: 56px 56px, 56px 56px;
+	background-color: #36cd53;
+}
+
+body,
+button,
+a,
+input,
+label {
+	font-family: "Montserrat", sans-serif;
+}
+
+.hidden {
+	display: none;
+}
