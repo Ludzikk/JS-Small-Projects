@@ -6,7 +6,7 @@
 
 	&__title {
 		position: relative;
-		font-size: 5.5rem;
+		font-size: 4rem;
 
 		&::after {
 			content: "";
@@ -22,7 +22,7 @@
 	&__container {
 		margin-top: 4em;
 		padding: 2em;
-		width: 50%;
+		width: 100%;
 		border-radius: 10px;
 		box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 		background-color: white;
@@ -101,7 +101,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		height: 135px;
+		min-height: 135px;
 	}
 
 	&__buttons {

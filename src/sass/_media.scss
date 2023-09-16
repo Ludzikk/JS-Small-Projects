@@ -1,0 +1,46 @@
+@media (min-width: 576px) {
+	.main__mid {
+		flex-direction: row;
+	}
+
+	.main-counter {
+		&__buttons {
+			flex-direction: row;
+		}
+
+		&__btn {
+			margin: 0 0.5em;
+		}
+	}
+
+	.main-reviews {
+		&__title {
+			font-size: 5.5rem;
+		}
+	}
+
+	.nav-navbar {
+		&__list {
+			display: flex;
+		}
+
+		&__item {
+			padding: 0 0.5em;
+		}
+
+		&__btn {
+			display: none;
+		}
+		
+	}
+}
+
+@media (min-width: 992px) {
+	.main {
+		width: 50%;
+	}
+
+	.main-reviews__container {
+		width: 50%;
+	}
+}
