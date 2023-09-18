@@ -17,12 +17,10 @@
         padding: 0.2em;
         font-size: 3rem;
         border: none;
+        color: black;
+        background: none;
         cursor: pointer;
         transition: transform .5s;
-
-        &:hover {
-            transform: rotate(90deg);
-        }
     }
 
 	&__logo {
@@ -56,4 +54,8 @@
 
 .open {
     height: 175px;
+}
+
+.nav-navbar-active {
+    transform: rotate(90deg);
 }

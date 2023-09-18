@@ -2,7 +2,7 @@
 	position: absolute;
 	left: -500px;
 	max-width: 400px;
-    width: 100%;
+	width: 100%;
 	height: 100vh;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	transition: left 0.5s;
@@ -60,15 +60,16 @@
 	font-size: 3rem;
 	border: none;
 	background: none;
+	color: black;
 	cursor: pointer;
 	transition: transform 0.5s, color 0.5s;
-
-	&:hover {
-		transform: rotate(90deg);
-		color: royalblue;
-	}
 }
 
 .sidebar-active {
 	left: 0;
+}
+
+.sidebar__btn-active {
+	transform: rotate(90deg);
+	color: royalblue;
 }
